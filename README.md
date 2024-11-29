@@ -89,7 +89,7 @@ Criar um item:
 
 ```javascript
 
-const item = createItem(1, "Xiaomi Redmi Note 13", 1020, "electronics", "Xiaomi")
+const item = await createItem(1, "Xiaomi Redmi Note 13", 1020, "electronics", "Xiaomi")
 
 ```
 Adicionar um item:
@@ -112,9 +112,9 @@ cart.showCart()
 
 ## 🚧 Futuras Melhorias
 
-- [] Implementar persistência em banco de dados real (ex: MongoDB ou PostgreSQL).
-- [] Adicionar autenticação para controle de usuários.
-- [] Criar uma interface frontend para interação.
-- [] Implementar testes automatizados (ex: Jest).
+- [ ] Implementar persistência em banco de dados real (ex: MongoDB ou PostgreSQL).
+- [ ] Adicionar autenticação para controle de usuários.
+- [ ] Criar uma interface frontend para interação.
+- [ ] Implementar testes automatizados (ex: Jest).
 
 
